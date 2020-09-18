@@ -260,3 +260,6 @@ const str3 = text4.replace(shablon4, " 0");
 //
 //
 // })
+app.get ('/home', (req, res) => {
+return res.send ('Привет');
+});
