@@ -16,7 +16,7 @@ app.get('/', function(request, response) {
     console.log('App is running, server is listening on port ', app.get('port'));
 });
 // replace the value below with the Telegram token you receive from @BotFather
-const token = 'THERE IS YOUR TOKEN';
+const token = '1186357282:AAFRlKGrA872xk6X2636WPmQpzKRh2q4acA';
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
 //*****************************************************************************************************
